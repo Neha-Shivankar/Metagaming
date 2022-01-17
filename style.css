@@ -1,0 +1,269 @@
+.navbar{
+    
+    padding:5px;
+    margin:auto;
+    background: url('ms8.png');
+    background-repeat: no-repeat;
+}
+.navbar-nav{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    flex: 0 auto;
+}
+#token{
+    border-radius: 5px;
+    background: rgb(43, 42, 42);
+    color: white;
+    
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-item{
+    display: block;
+    padding-right:1.0em;
+    padding-left: 1.0em;
+    color: white;
+    font-size: 0.89em;
+    font-weight:600;
+    font-family: poppins,sans-serif;
+    
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+body{
+    background: url('peakpx\ \(1\).jpg');
+    background-repeat: no-repeat;
+    
+}
+.container{
+    color:white;
+    
+
+}
+
+
+#heading{
+    display: flex;
+    position: absolute;
+    left:125px;
+   
+    
+    justify-items: center;
+    flex-direction: column;
+        
+   color:white;
+    
+}
+#heading h2{
+    top: 40px;
+    background: linear-gradient(cyan,Pink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#heading h1{
+    top:20px;
+    line-height: 55px;
+    position: absolute;
+    font-size: 45px;
+    
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#heading h1 span{
+    color:chocolate;
+}
+#heading p{
+    position: absolute;
+    top: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.buy{
+
+   //* display: flex;
+    position: absolute;
+    padding: 45px auto;*//
+    font-weight: bold;
+    font-size: 25px;
+    
+    
+}
+.buy #buy_now{
+    position: absolute;
+    top:350px;
+    border:2px solid grey ;
+    border-radius: 15px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 0px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+#buy_now a:hover{
+    background: linear-gradient(pink,blue);
+
+}
+#start{
+
+    position: absolute;
+    top:350px;
+    left:105;
+    right:15px;
+    border-radius: 15px;
+    border: 2px solid grey;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+#start a:hover{
+    background: linear-gradient(pink,blue);
+}
+.tgram{
+    position: absolute;
+    top:350px;
+    left:225px;
+    height: 30px;
+}
+
+.buy div a img{
+    position: absolute;
+    height:30px;
+    width:45px;
+    left:250px;
+    border:2px solid grey;
+    border-radius: 6px;
+}
+.pic{
+    
+    height: 600px;
+    left: 554px;
+    position: absolute;
+    
+}
+.about #h_1{
+    position:absolute;
+    top: 800px;
+    background: url('cat.jpg');
+    background-size: cover;
+    color:white;
+}
+.about #h_1 .tar{
+    text-align: center;
+    font-size: 45px;
+    background: linear-gradient(red,white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about #h_1 #whale{
+    align-items: center;
+    padding: 10px;
+}
+.about #h_1 #whale .box{
+    position: relative;
+    left: 150px;
+    border: 4px solid grey;
+    border-radius: 15px 10px 15px 10px;
+    width: 18%;
+    padding: 30px;
+    margin: 20px;
+    display: inline-block;
+    
+}
+.about #h_1 #whale .box:hover{
+    background: linear-gradient(red,purple);
+}
+#token{
+    
+    border: 2px solid black;
+    position: absolute;
+    top: 1250px;
+    width: 100%;
+    background: url('virtual_reality.jpg');
+    
+    
+
+}
+#token h1{
+       text-align: center;
+       width:100%;
+       font-weight: bold;
+       font-size: 35px;
+       background: linear-gradient(red,rgb(15, 15, 15));
+       -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+    #token #t1 .t2{
+        background: black;
+        background-repeat: no-repeat;
+        border:2px solid white;
+        border-radius: 15px;
+        
+        
+        display: inline-block;
+        font-weight: bold;
+        margin: 60px;
+        padding: 10px;
+
+    }
+    #f4_box #sbox{
+        
+        border: 2px solid white;
+        background: url('cat.jpg');
+    }
+    #f4_box #sbox .boxes{
+        display: inline-block;
+        border: 2px solid grey;
+        border-radius: 10px 15px 10px 15px;
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+    }
+    #f4_box #sbox .boxes:hover{
+        background: linear-gradient(red,purple);
+    }
+    #g_tactics{
+        
+        background: #0a1533;
+        top:2199px;
+        position: absolute;
+        width: 100%;
+    } 
+    #g_tactics{
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+    #a1{
+     border: 2px solid black;
+    align-items: center;
+
+}
+.a2{
+    border: 2px solid white;
+    width: 190px;
+    display: inline-block;
+    padding: 20px;
+    margin: 35px;
+    border-radius: 25px;
+    color: white;
+    top: 2000px;
+}
+.a2:hover{
+    background: linear-gradient(red,grey);
+}
