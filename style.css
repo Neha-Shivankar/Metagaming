@@ -16,11 +16,19 @@
     -webkit-box-flex: 0;
     flex: 0 auto;
 }
-#token{
+#tone{
+    border: 2px solid grey;
     border-radius: 5px;
-    background: rgb(43, 42, 42);
-    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 5px;
+}
+
+ #token{
     
+    border-radius: 5px;
+     color: white;
     padding: 10px;
     text-align: center;
 }
@@ -30,7 +38,7 @@
     padding-right:1.0em;
     padding-left: 1.0em;
     color: white;
-    font-size: 0.89em;
+    font-size: 20px;
     font-weight:600;
     font-family: poppins,sans-serif;
     
@@ -133,11 +141,14 @@ body{
     background: linear-gradient(pink,blue);
 }
 .tgram{
-    position: absolute;
+    position:absolute;
     top:350px;
-    left:225px;
+    left:85px;
     height: 30px;
+
 }
+
+
 
 .buy div a img{
     position: absolute;
